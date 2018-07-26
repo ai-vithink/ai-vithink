@@ -10,6 +10,10 @@
         <!--CSS-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
         <link rel="stylesheet" href="./css/styles.css">
+
+        <!--JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        <script src="js/actions.js"></script> 
     </head>
 
     <body style="font-family:'Merriweather Sans', sans-serif;">
@@ -17,13 +21,46 @@
             <img id="logo" src="img/VIThink_Logo.png" alt="VIThink">
         </div>
         <div class="container" id="buttons">
-            <a class="button is-link is-outlined">About Us</a>
-            <a class="button is-danger is-outlined">Events</a>
+            <a id="about-us" class="button is-link is-outlined">About Us</a>
+            <a id="events-button" class="button is-danger is-outlined">Events</a>
         </div>
-        <footer class="footer">
-            <div class="content has-text-centered">
-                © 2018 VIThink
+
+        <div class="events card">
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-content">
+                        <p class="title is-4">Machine Learning Workshop</p>
+                        <p class="subtitle is-6"><b>Venue:</b> To be decided.</p>
+                    </div>
+                </div>
+                <div class="content">
+                    Introduction to machine learning. Learn how machines learn.
+                    <br>
+                    <time datetime="2018-8-1"><b>Time:</b> 3rd and 4th August, 2018.</time>
+                    <p><b>Fees:</b> Zero. Zip. Zilch. Nada. Nothing.</p>
+                </div>
             </div>
-        </footer>
+            <hr>
+            <div class="card-content">
+                <div class="media">
+                <div class="media-content">
+                    <p class="title is-4">Quiz for ML workshop</p>
+                    <p class="subtitle is-6"><b>Venue:</b> Online</p>
+                </div>
+                </div>
+            
+                <div class="content">
+                Earn your seat to the workshop. Hurry up! Limited seats only. Click
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfI-SFOkBFrzAkqNVOpFQRjRYZTtTfQiczKaoStaR5fhUUPIQ/viewform?c=0&w=1">here</a> for the test.
+                <br>
+                <time datetime="2018-8-1"><b>Time:</b> Till 1st August.</time>
+                <p><b>Fees:</b> Zero. Zip. Zilch. Nada. Nothing.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot has-text-centered">
+            © 2018 VIThink
+        </div>
     </body>
 </html>

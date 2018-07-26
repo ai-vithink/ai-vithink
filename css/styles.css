@@ -1,30 +1,67 @@
+body{
+    overflow-y: true;
+}
 
 #main{
-    position: absolute;
+    position: relative;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    margin-bottom: 18px;
     width: 350px;
     height: 350px;
 }
 
 #buttons{
-    position: absolute;
+    position: relative;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin-top: 75vh;
+    margin: auto;
     text-align: center;
 }
 
-footer{
-    bottom:0;
+.events{
+    position: absolute;
     left: 0;
     right: 0;
-    position: fixed;
-    margin-bottom: -60px;
-    height: 50px;
+    margin: auto;
+    margin-top: -50px;
+    display: none;
+    overflow-y: scroll;
+    height: 200px;
+    width: 480px;
 }
+
+.card{
+    background-color: white;
+    box-shadow: #f2f2f2;
+}
+
+.button{
+    width: 150px;
+}
+
+.foot{
+    position: relative;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: 32px;
+}
+
+
+.card::-webkit-scrollbar {
+    width: 5px;
+  }
+   
+.card::-webkit-scrollbar-thumb {
+    background: #ddd; 
+  }
+  
+.card::-webkit-scrollbar-track {
+    background: #666; 
+  }
