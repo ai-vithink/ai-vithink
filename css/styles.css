@@ -68,7 +68,7 @@ body{
 
 .cross{
     font-size: 24px;
-    position: absolute;
-    top: 0px;
-    right: 10px;
+    position: fixed;
+    top: 320px;
+    right: 720px;
 }
