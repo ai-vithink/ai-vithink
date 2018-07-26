@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $("#events-button").on("click",function(){
-        $("#buttons").animate({top:300});
-        $(".foot").animate({top:300});
+        $("#buttons").animate({top:200});
+        $(".foot").animate({top:200});
         $(".events").css("display", "inline-block" );
     });
 
