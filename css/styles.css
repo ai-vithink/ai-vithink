@@ -116,3 +116,7 @@ body{
 .notification{
     width: 200px;
 }
+
+.email:hover{
+    color: blue;
+}
