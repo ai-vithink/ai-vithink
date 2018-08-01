@@ -90,7 +90,7 @@ $(document).ready(function(){
         // If the count down is finished, write some text 
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown-append").innerHTML = "EXPIRED";
+            document.getElementById("countdown-append").innerHTML = "00h 00m 00s";
         }
     }, 1000);
 
