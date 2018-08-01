@@ -90,7 +90,8 @@ $(document).ready(function(){
         // If the count down is finished, write some text 
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("countdown-append").innerHTML = "00h 00m 00s";
+            document.getElementById("countdown-append").innerHTML = "Loading!";
+            window.location.href = "https://ai-vithink.github.io";
         }
     }, 1000);
 
