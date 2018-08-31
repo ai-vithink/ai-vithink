@@ -26,7 +26,7 @@ body{
 }
 
 
-#our-events{
+#our-events, #our-trainers, .about{
     position: relative;
     clear: both;
     margin: 0;
@@ -37,6 +37,12 @@ body{
 .mentors-card{
     display: inline-block;
     margin-bottom: 10px;
+    width: 450px;
+}
+
+.trainers-card{
+    display: inline-block;
+    width:350px;
 }
 
 .card-image{
