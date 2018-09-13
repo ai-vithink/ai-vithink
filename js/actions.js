@@ -20,4 +20,8 @@ $(document).ready(function(){
         window.location.href = "ebe.html";
     });
 
+    $("#events-tab").on("click",function(){
+        window.location.href = "events.html";
+    });
+
 });
