@@ -24,4 +24,5 @@ $(document).ready(function(){
         window.location.href = "events.html";
     });
 
+
 });
