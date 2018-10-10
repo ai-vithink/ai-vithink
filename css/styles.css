@@ -10,14 +10,6 @@ body{
     box-align: left;
 }
 
-#our-mentors{
-    position: relative;
-    clear: both;
-    margin: 0;
-    background: whitesmoke;
-    width: 100%;
-}
-
 #about-us{
     position: relative;
     clear: both;
@@ -25,8 +17,12 @@ body{
     width: 100%;
 }
 
+#ebe-m{
+    width: 70%;
+    height: 70%;
+}
 
-#our-events, #our-trainers, .about{
+#our-events, #our-mentors, .about, #our-trainers,#about,#resources{
     position: relative;
     clear: both;
     margin: 0;
@@ -58,6 +54,7 @@ a{
     color: white;
 }
 
+/* For testing */
 /* .container{
     border: 2px solid black;
 } */
@@ -116,3 +113,9 @@ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     margin-top: -50px;
 }
 
+.events-card{
+    margin: 10px auto;
+    display: inline-block;
+    width: 750px;
+    padding-right: 25px;
+}
