@@ -77,8 +77,8 @@ $(document).ready(function(){
         
     
     //Remove after hackathon
-    var toHack = new Date("October 13, 2018 09:00:00");
-    var endHack = new Date("October 14, 2018 09:00:20")
+    var toHack = new Date("October 13, 2018 09:30:00");
+    var endHack = new Date("October 14, 2018 09:30:20")
     countdown(toHack,"Hack Begins!",countdown(endHack,"Hack Ends!",dummy(),""),"HACK ENDS IN:" );
 
 });
