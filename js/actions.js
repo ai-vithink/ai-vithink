@@ -1,14 +1,14 @@
 $(document).ready(function(){
     
-    $("#ai-training-tab").on("click",function(){
+    $(".ai-training-tab").on("click",function(){
         window.location.href = "ai.html";
     });
 
-    $("#home-tab").on("click",function(){
+    $(".home-tab").on("click",function(){
         window.location.href = "index.html";
     });
 
-    $("#about-us-tab").on("click",function(){
+    $(".about-us-tab").on("click",function(){
         window.location.href = "board.html";
     });
 
@@ -24,19 +24,23 @@ $(document).ready(function(){
         window.location.href = "susan.html";
     });
 
-    $("#events-tab").on("click",function(){
+    $("#view-sathiya").on("click",function(){
+        window.location.href = "sathiya.html";
+    });
+
+    $(".events-tab").on("click",function(){
         window.location.href = "events.html";
     });
 
-    $("#mentors-tab").on("click",function(){
+    $(".mentors-tab").on("click",function(){
         window.location.href = "mentors.html";
     });
 
-    $("#experience-tab").on("click",function(){
+    $(".experience-tab").on("click",function(){
         window.location.href = "experience.html";
     });
 
-    $("#resources-tab").on("click",function(){
+    $(".resources-tab").on("click",function(){
         window.location.href = "resources.html";
     });
 
@@ -72,9 +76,26 @@ $(document).ready(function(){
     });
 
     //Check for mobile device
-    if(window.mobilecheck())
+    if(window.mobilecheck()){
+        //$(".navbar").css("display","inline");
         $("#GoogleDocs").css("width","100%");
-    
+        $("#tabs").css("display","none");
+    }
+        
+    $(".navbar-item").mouseenter(function(){
+        $(this).removeClass("has-text-white");
+    }).mouseleave(function(){
+        $(this).addClass("has-text-white");
+    });
+        
+      // Check for click events on the navbar burger icon
+    $(".navbar-burger").click(function() {
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+        //$(".navbar-brand").toggleClass("navbar-color")
+    });
 
 });
 

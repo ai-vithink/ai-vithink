@@ -37,7 +37,47 @@
     </head>
 
     <body style="font-family:'Merriweather Sans', sans-serif;">
-    
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a role="button" style="color: #2f2f2f;" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
+          
+            <div style="background-color: #2f2f2f; color: white;" id="navbarBasicExample" class="navbar-menu">
+              <div class="has-text-white navbar-start">
+                <a class="has-text-white home-tab navbar-item">
+                  Home
+                </a>
+          
+                <a class="has-text-white ai-training-tab navbar-item">
+                  AI Training
+                </a>
+          
+                <a class="has-text-white about-us-tab navbar-item">
+                    About Us
+                </a>
+
+                <a class="has-text-white events-tab navbar-item">
+                    Events
+                </a>
+                
+                <a class="has-text-white mentors-tab navbar-item">
+                    Mentors
+                </a>
+                
+                <a class="has-text-white experience-tab navbar-item">
+                    Student Experience
+                </a>
+
+                <a class="has-text-white resources-tab navbar-item">
+                    Resources
+                </a>
+              </div>
+            </div>
+          </nav>
         <section id="about-us" class="home section">
                 <div class="container">
                     <div class="container" id="main">
@@ -51,34 +91,10 @@
                 </div>
         </section>
 
-        <section class="section is-centered" id="tabs">
-          <div class="container is-centered">
-              <div class="tabs is-centered">
-                <ul>
-                  <li id="home-tab" class="is-active"><a>Home</a></li>
-                  <li id="ai-training-tab"><a>AI Training</a></li>
-                  <li id="about-us-tab"><a>Members</a></li>
-                  <li id="events-tab"><a>Events</a></li>
-                </ul>
-              </div>
-          </div>
-
-          <div class="container is-centered">
-                <div class="tabs is-centered">
-                    <ul>
-                    <li id="mentors-tab"><a>Mentors</a></li>
-                    <li id="experience-tab"><a>Student Experience</a></li>
-                    <li id="resources-tab"><a>Resources</a></li>
-                    </ul>
-                </div>
-            </div>
-
-           
-        </section>
-        <section class="section is-widescreen" id="hackathon">
+        <section class="section is-widescreen" id="hackathon" style="background: #f2f2f2 ">
             
             <div class="container has-text-centered">
-                <h1 class="is-size-2 has-text-left">Happening</h1><br>
+                <h1 class="is-size-2 has-text-left">| Happening</h1><br>
                 <img src="img/Events/codesense.png">
                 <h2 class="has-text-weight-bold">13th and 14th October, 2018</h2>
                 <h2>24 hours ML and DSP Hackathon <br> School of Electronics Engineering, VIT Chennai.</h2><br>
@@ -128,7 +144,7 @@
 
         <section id="our-events" class="section home is-widescreen has-text-justified">
                 <div class="container">
-                <h1 class="title has-text-white">A workshop on Machine Learning</h1>
+                <h1 class="title has-text-white has-text-left">A workshop on Machine Learning</h1>
                 <h2 class="subtitle has-text-white">
                     <br>We recently conducted a two day Machine Learning workshop for our juniors to get acquinated to the subject and acquire a deep interest in it.
                     <br>The main focus of this workshop was on regression and classification problems and an introduction to Neural Networks and Deep Learning.
